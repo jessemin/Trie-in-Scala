@@ -5,7 +5,7 @@
 * Trie Implementation in Scala
 * Utilized the concept of "tail recursion"
 * Simple but powerful implementation of Leixcon
-* Extends Traversable[T] in order to implement foreach[U](f: T => U)
+* Extends Traversable[T] in order to override foreach
 
 ## How to Use
 
