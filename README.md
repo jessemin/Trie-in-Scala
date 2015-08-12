@@ -1,5 +1,5 @@
 # Revisiting Trie in Scala
-*an trie implementation in Scala*
+*n trie implementation in Scala*
 
 ## Introduction
 * Trie Implementation in Scala
