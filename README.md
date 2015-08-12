@@ -5,6 +5,7 @@
 * Trie Implementation in Scala
 * Utilized the concept of "tail recursion"
 * Simple but powerful implementation of Leixcon
+* Extends Traversable[T] in order to implement foreach[U](f: T => U)
 
 ## How to Use
 
@@ -19,4 +20,24 @@ val lexiconNode = Lexicon.generateLexicon("words.txt")
 //Just print the constructed trie
 Lexicon.generateLexicon("words.txt")
 
+```
+
+### Detailed Usages
+
+```Scala
+//Generate one empty node
+val root = new TrieNode()
+
+//Append Strings
+root.append("he")
+root.append("she")
+root.append("his")
+root.append("hers")
+
+//Check whether the trie contains a specific string
+root.contains("he")   //true
+root.contains("her")  //false
+
+//Print the entire trie in a console with the predefined format
+root.printTree()
 ```
